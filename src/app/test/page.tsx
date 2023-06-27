@@ -1,10 +1,9 @@
 import React from "react";
-import Headertest from "@/components/Headertest";
-
+// import Headertest from "@/components/Headertest";
 
 interface User {
-    id: number;
-    name: string;
+  id: number;
+  name: string;
 }
 
 async function getData(): Promise<User[]> {
@@ -16,14 +15,11 @@ async function getData(): Promise<User[]> {
 }
 
 async function Page() {
-
     const users = await getData();
 
     return (
         <div>
-
-            <Headertest/>
-
+            {/* <Headertest /> */}
             {users.map((user) => (
                 <div key={user.id}>{user.name}</div>
             ))}

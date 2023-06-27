@@ -31,8 +31,8 @@ export default function Home() {
                     </button>
                 </div>
             </div>
-            <div className=" w-full h-3/4 flex flex-col justify-around  p-10  border-2 border-dashed  border-black">
-                <div className="w-full h-32 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
+            <div className=" w-full h-3/4 mt-16 flex flex-col justify-start    border-2 border-dashed  border-black">
+                <div className="w-full h-32 mt-5 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
                     <div className="flex">
                         <Image src={Reactangle} alt="Picture" />
                         <div className="flex flex-col pl-2">
@@ -54,7 +54,7 @@ export default function Home() {
                         <PiBellThin size={30} className="text-gray-600" />
                     </div>
                 </div>
-                <div className="w-full h-28 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
+                <div className="w-full h-28 mt-5 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
                     <div className="flex">
                         <Image src={Reactangle} alt="Picture" className="h-20 w-20" />
                         <div className="flex flex-col pl-4">
@@ -76,7 +76,7 @@ export default function Home() {
                         <PiBellThin size={30} className="text-green-600" />
                     </div>
                 </div>
-                <div className="w-full h-24 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
+                <div className="w-full h-24 mt-5 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
                     <div className="flex">
                         <Image src={Reactangle} alt="Picture" className="h-16 w-16" />
                         <div className="flex flex-col pl-6">

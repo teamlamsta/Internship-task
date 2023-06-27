@@ -32,24 +32,33 @@ export default function Home() {
             </div>
             <div className=" w-full h-3/4 flex flex-col justify-around  p-4  border-2 border-dashed  border-black">
                 <div className="w-full h-32 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
-                    <div className="">
+                    <div className="flex">
                         <Image src={Reactangle} alt="Picture" />
+                        <div>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
                     </div>
                     <div>
                         <PiBellThin size={30} className="text-gray-700" />
                     </div>
                 </div>
                 <div className="w-full h-28 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
-                    <div className="">
+                    <div className="flex">
                         <Image src={Reactangle} alt="Picture" className="h-20 w-20" />
+                        <div>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
                     </div>
                     <div>
                         <PiBellThin size={30} className="text-green-600" />
                     </div>
                 </div>
                 <div className="w-full h-24 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
-                    <div className="">
+                    <div className="flex">
                         <Image src={Reactangle} alt="Picture" className="h-16 w-16" />
+                        <div>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
                     </div>
                     <div>
                         <PiBellThin size={30} className="text-gray-700" />

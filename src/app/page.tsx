@@ -1,5 +1,6 @@
 import { VscAdd } from "react-icons/vsc";
 import { PiBellThin } from "react-icons/pi";
+import { AiOutlineCalendar } from "react-icons/ai";
 import Image from "next/image";
 import Reactangle from "../assets/Rectangle1.png";
 
@@ -30,23 +31,45 @@ export default function Home() {
                     </button>
                 </div>
             </div>
-            <div className=" w-full h-3/4 flex flex-col justify-around  p-4  border-2 border-dashed  border-black">
+            <div className=" w-full h-3/4 flex flex-col justify-around  p-10  border-2 border-dashed  border-black">
                 <div className="w-full h-32 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
                     <div className="flex">
                         <Image src={Reactangle} alt="Picture" />
-                        <div>
-                            <p>Lorem, ipsum dolor.</p>
+                        <div className="flex flex-col pl-2">
+                            <p className="text-xl  font-extralight mb-1">
+                Lorem, ipsum dolor
+                            </p>
+                            <p className="text-sm  font-thin mb-1">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </p>
+                            <div className="flex">
+                                <AiOutlineCalendar size={20} className="text-gray-600 " />
+                                <span className="font-thin text-gray-500 text-sm mx-1">
+                  Date
+                                </span>
+                            </div>
                         </div>
                     </div>
                     <div>
-                        <PiBellThin size={30} className="text-gray-700" />
+                        <PiBellThin size={30} className="text-gray-600" />
                     </div>
                 </div>
                 <div className="w-full h-28 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
                     <div className="flex">
                         <Image src={Reactangle} alt="Picture" className="h-20 w-20" />
-                        <div>
-                            <p>Lorem, ipsum dolor.</p>
+                        <div className="flex flex-col pl-4">
+                            <p className="text-xl  font-extralight mb-1">
+                Lorem, ipsum dolor
+                            </p>
+                            <p className="text-sm  font-thin mb-1">
+                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                            <div className="flex">
+                                <AiOutlineCalendar size={20} className="text-gray-600 " />
+                                <span className="font-thin text-gray-500 text-sm mx-1">
+                  Date
+                                </span>
+                            </div>
                         </div>
                     </div>
                     <div>
@@ -56,12 +79,20 @@ export default function Home() {
                 <div className="w-full h-24 bg-gray-900/50 border border-gray-700 rounded-md flex items-center justify-between px-7">
                     <div className="flex">
                         <Image src={Reactangle} alt="Picture" className="h-16 w-16" />
-                        <div>
-                            <p>Lorem, ipsum dolor.</p>
+                        <div className="flex flex-col pl-6">
+                            <p className="text-xl  font-extralight mb-1">
+                Lorem, ipsum dolor
+                            </p>
+                            <div className="flex">
+                                <AiOutlineCalendar size={20} className="text-gray-600 " />
+                                <span className="font-thin text-gray-500 text-sm mx-1">
+                  Date
+                                </span>
+                            </div>
                         </div>
                     </div>
                     <div>
-                        <PiBellThin size={30} className="text-gray-700" />
+                        <PiBellThin size={30} className="text-gray-600" />
                     </div>
                 </div>
             </div>
